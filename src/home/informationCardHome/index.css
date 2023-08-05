@@ -1,0 +1,264 @@
+.home-info-contain p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2D9CDB;
+  margin: 0;
+  padding: 0;
+}
+
+.home-info-contain .home-info {
+  margin: 0 0 15px 0;
+  padding: 0;
+  width: 252px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.home-info-contain,
+.home-send-info-contain {
+  margin: 0 40px;
+}
+
+.home-image {
+  height: 175px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.home-send-info {
+  margin: 22px 0 33px 0;
+  padding: 0;
+  width: 190px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.home-send-info-contain p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4F4F4F;
+  width: 275px;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.home-input {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #F2F2F2;
+  padding: 5px;
+  width: 100%;
+}
+
+.home-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+  margin: 0 10px 0 20px;
+}
+
+.home-input-container p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #828282;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+.home-button {
+  border: none;
+  outline: none;
+  background-color: #2D9CDB;
+  color: #FFF;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 80px;
+  padding: 12px 0;
+}
+
+.home-card-contain p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 500;
+  width: 259px;
+  margin: 102px 40px 46px 40px;
+}
+
+.home-card {
+  margin-top: 92px;
+  padding: 42px 40px 0;
+}
+
+.home-card:hover {
+  border-radius: 18px;
+  background-color: #FFF;
+  box-shadow: -7px 10px 32px -10px rgba(214, 214, 214, 1);
+  cursor: pointer;
+}
+
+.card-image-edit {
+  width: 67px;
+  height: 67px;
+  margin: 0;
+  padding: 0;
+  background-color: #249eff;
+  border-radius: 16px;
+}
+
+.card-image-front {
+  width: 67px;
+  height: 67px;
+  margin: 0;
+  padding: 0;
+  background-color: #5cb7ff;
+  border-radius: 16px;
+}
+
+.card-image-back {
+  width: 67px;
+  height: 67px;
+  margin: 0;
+  padding: 0;
+  background-color: #dfac2d;
+  border-radius: 16px;
+}
+
+.card-image-back img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image-front img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image-edit img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-card p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 35px 0 24px 0;
+  padding: 0;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4F4F4F;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.card-button {
+  border: none;
+  background-color: #2D9CDB;
+  color: #FFF;
+  width: 116px;
+  padding: 9px 12px;
+  border-radius: 12px;
+  margin-bottom: 43px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+  .home-info-contain{
+    margin: 0 250px 42px;
+  }
+  .home-info-contain p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2D9CDB;
+    margin: 0;
+    padding: 0;
+    width: 256px;
+  }
+  .home-info-contain .home-info {
+    margin: 0 0 15px 0;
+    padding: 0;
+    width: 470px;
+    font-size: 48px;
+    font-weight: 500;
+  }
+  .home-image-contain{
+    margin: 0 0 42px 0;
+  }
+  .home-image {
+    height: 354px;
+    margin: 0 56px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .home-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+  }
+  .home-send-info-contain{
+    margin: 0 150px 200px ;
+  }
+  .home-send-info{
+    margin: 22px 0 33px 0;
+    padding: 0;
+    width: 366px;
+    font-size: 48px;
+    font-weight: 500;
+  }
+  .home-send-info-contain p:nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+    width: 336px;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+  .home-input-container p {
+    font-size: 14px;
+  }
+  .home-button {
+    border: none;
+    outline: none;
+    background-color: #2D9CDB;
+    color: #FFF;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 90px;
+    padding: 18px 28px;
+  }
+  .home-card-contain{
+    margin: 0 120px 42px;
+  }
+  .home-card-contain p:nth-child(1){
+    font-size: 36px;
+    font-weight: 500;
+    width: 330px;
+    margin: 0 0 42px;
+  }
+  .home-card-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-card {
+    width: 341px;
+    padding: 40px 30px 20px;
+    margin: 0;
+  }
+}

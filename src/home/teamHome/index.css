@@ -1,0 +1,163 @@
+.team-home-contain{
+  margin-bottom: 100px;
+}
+
+.team-home-information p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: #EB5757;
+}
+
+.team-home-information p:nth-child(2) {
+  font-size: 36px;
+  font-weight: 500;
+  width: 280px;
+  color: #333333;
+  margin: 14px 0;
+  padding: 0;
+}
+
+.team-home-information p:nth-child(3) {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #4F4F4F;
+}
+
+.team-home-image-contain{
+  margin: 36px 0 100px 0;
+  display: flex;
+  align-items: center;
+}
+
+.team-home-image-contain .team-image{
+  margin: 0;
+  padding: 0;
+  width: 165px;
+  height: 178px;
+}
+
+.team-image img{
+  width: 100%;
+  height: 100%; 
+  border-radius: 24px;
+}
+
+.team-photo{
+  width: 144px;
+  height: 144px;
+  margin: 0 0 10px 10px;
+}
+
+.team-photo img{
+  width: 100%;
+  height: 100%;
+  border-radius:24px;
+}
+
+.team-picture{
+  width: 162px;
+  height: 162px;
+  margin: 0 0 0 10px ;
+}
+
+.team-picture img{
+  width: 100%;
+  height: 100%;
+  border-radius:24px;
+}
+
+.team-info-persons p:nth-child(1){
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 20px 27px 0;
+}
+
+.team-image-persons{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.image-person{
+  width: 82px;
+  height: 82px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.image-person img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.team-info{
+  width: 60%;
+}
+
+.team-info p:nth-child(1){
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 0 30px;
+}
+
+.team-info p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px 0 0 30px;
+  color: #828282;
+}
+
+@media screen and (min-width: 767px) {
+  .team-home-contain{
+    padding: 10px 35px;
+  }
+  .team-home-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .team-home-information p:nth-child(1) {
+    font-size: 28px;
+  }
+  .team-home-information p:nth-child(2) {
+    font-size: 40px;
+  }
+  .team-home-information p:nth-child(3) {
+    font-size: 18px;
+    width: 250px;
+  }
+  .team-home-image-contain{
+    margin-bottom: 15px;
+  }
+  .team-photo {
+    margin: 0 0 10px 10px;
+  }
+  .team-picture {
+    margin: 0 0 0 10px;
+  }
+  .team-info-persons{
+    margin-top: 196px;
+  }
+  .team-info-persons > p:nth-child(1) {
+    font-size: 36px;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .team-home-flex{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .team-home-information{
+    width: 352px;
+  }
+}

@@ -1,0 +1,133 @@
+.footer-contain{
+  background-color: #100E1D;
+  color: #FFFFFF;
+  padding: 36px 40px 24px;
+}
+
+.footer-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-list li{
+  padding: 0 0 10px;
+}
+
+.footer-list a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-images-contain p {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-images{
+  display: flex;
+  align-items: center;
+}
+
+.footer-images figure{
+  margin: 0;
+  padding: 0;
+  width: 24px;
+}
+
+.footer-images figure img{
+  width: 100%;
+}
+
+.footer-images .footer-in {
+  width: 40px;
+  margin: 0 4px;
+}
+
+.footer-images .footer-in img{
+  width: 100%;
+}
+
+.home-input-container{
+  margin-top: 64px;
+}
+
+.home-input {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #F2F2F2;
+  padding: 5px;
+  width: 100%;
+}
+
+.home-input-container p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #828282;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+.home-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+  margin: 0 10px 0 20px;
+}
+
+.home-button {
+  border: none;
+  outline: none;
+  background-color: #2D9CDB;
+  color: #FFF;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 80px;
+  padding: 12px 0;
+}
+
+.footer-contain .footer-by {
+  margin: 200px 0 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-by a{
+  text-decoration: underline;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 767px) {
+  .footer-contain{
+    padding: 56px 0 0 0;
+  }
+  .footer-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    align-self: flex-start;
+  }
+  .home-input-container{
+    margin: 0;
+  }
+  .footer-images-contain{
+    margin: -10px 0 0 0;
+  }
+  .footer-images-contain p {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+  }
+  .footer-by{
+    padding-bottom: 30px;
+  }
+}
